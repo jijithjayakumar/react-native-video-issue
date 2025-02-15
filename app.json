@@ -37,10 +37,17 @@
           "enableNotificationControls": true,
           "androidExtensions": {
             "useExoplayerRtsp": false,
-            "useExoplayerSmoothStreaming": false,
+            "useExoplayerSmoothStreaming":true,
             "useExoplayerHls": true,
             "useExoplayerDash": false
           }
+        }
+      ],
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": true,
+          "supportsPictureInPicture": true
         }
       ]
     ]

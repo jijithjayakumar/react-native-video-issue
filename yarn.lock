@@ -3687,6 +3687,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"expo-video@npm:~2.0.5":
+  version: 2.0.5
+  resolution: "expo-video@npm:2.0.5"
+  peerDependencies:
+    expo: "*"
+    react: "*"
+    react-native: "*"
+  checksum: a9205efda451f078dadd59aefdf12db1f6583024928a953f3e16798b33ed6dd38443e1cb5367cb8ab1ceadc0daeb7e9ce84d615c5ea8fbd9f3c11a1487fe5dda
+  languageName: node
+  linkType: hard
+
 "expo@npm:~52.0.35":
   version: 52.0.35
   resolution: "expo@npm:52.0.35"
@@ -4568,9 +4579,10 @@ __metadata:
     expo: ~52.0.35
     expo-status-bar: ~2.0.1
     expo-system-ui: ~4.0.8
+    expo-video: ~2.0.5
     react: 18.3.1
     react-native: 0.76.7
-    react-native-video: ^6.10.0
+    react-native-video: ^6.10.1
     typescript: ^5.3.3
   languageName: unknown
   linkType: soft
@@ -6368,13 +6380,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-video@npm:^6.10.0":
-  version: 6.10.0
-  resolution: "react-native-video@npm:6.10.0"
+"react-native-video@npm:^6.10.1":
+  version: 6.10.1
+  resolution: "react-native-video@npm:6.10.1"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 6752e0d30bcb7e2c36861eacd8528e286b4831d1cdc6e903390e1ff361574816bad3c6a7ff0166546fa90386d71132f1e52a7d3ec93ecdb33f9413bee668f450
+  checksum: 9ffe4b10b623b7954ed0d3e26da44c574a8def78290819ea84e3d36a9be034e69e82ceb5c40c186a86a575fb601759ddfddecd57798bd19b7d36ada3e7e4e133
   languageName: node
   linkType: hard
 

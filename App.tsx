@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Video from 'react-native-video';
+import Video, { ViewType } from 'react-native-video';
 import { Dimensions } from 'react-native';
 
 export default function App() {
@@ -8,20 +8,24 @@ export default function App() {
   const {width,height} = Dimensions.get("screen");
   return (
     <View style={styles.container}>
-    {/* <ReelsCarousel reels={reels}></ReelsCarousel> */}
-
+    {/* */}
+    <Text style={{color:"red"}}>VIDEO WIth React NATIVE VIDEO</Text>
     <Video
-    source={{uri:"https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"}}
+    source={{uri:"https://stream.mux.com/ISnqK6ipsurhU5hcWspWgr8xOlyQO2rL.m3u8"}}
     controls={true}
     onError={(e)=>{console.log(e)}}
-    resizeMode='contain'
+    volume={0.3}
+    //ts-nocheck
+    resizeMode='cover'
     style={{
       width:width,
-      height:350
+      height:height
     }}
     >
 
     </Video>
+
+
 </View>
   );
 }
